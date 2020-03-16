@@ -4,27 +4,27 @@ import java.awt.geom.Point2D;
 
 import com.teamtreehouse.docgen.Doc;
 
-@Doc {
+@Doc (
     desc = "Utility class for common math functions"
-        }
+)
 
 public class MathUtils {
     private static final Double EPSILON = 0.0001;
 
-    @Doc {
+    @Doc (
         desc = "Calculates the area of a triangle",
         params = {"Coordinates of the first vertex"},
         returnVal = "Calcualted area of the triangle"
-    }
+    )
     public static Double triangleArea(Point2D.Double a, Point2D.Double b, Point2D.Double c) {
         return 0.0;
     }
 
-    @Doc {
+    @Doc (
         desc = "Calculates the distance between given points",
         params = {"Coordinates of one point", "Coordinates of another point"},
         returnVal = ""
-    }
+    )
     public static Double distance(Point2D.Double a, Point2D.Double b) {
         return 0.0;
     }
@@ -33,9 +33,9 @@ public class MathUtils {
         return new Double[]{};
     }
 
-    @Doc {
-        descr =  "Displays the value of epsilon"
-    }
+    @Doc (
+        desc =  "Displays the value of epsilon"
+    )
     public static void epsilon() {
 
     }
