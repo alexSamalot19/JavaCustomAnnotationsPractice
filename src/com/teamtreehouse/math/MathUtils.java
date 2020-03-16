@@ -4,14 +4,14 @@ import java.awt.geom.Point2D;
 
 import com.teamtreehouse.docgen.Doc;
 
-@Doc{
+@Doc {
     desc = "Utility class for common math functions"
         }
 
 public class MathUtils {
     private static final Double EPSILON = 0.0001;
 
-    @Doc{
+    @Doc {
         desc = "Calculates the area of a triangle",
         params = {"Coordinates of the first vertex"},
         returnVal = "Calcualted area of the triangle"
@@ -20,7 +20,7 @@ public class MathUtils {
         return 0.0;
     }
 
-    @Doc{
+    @Doc {
         desc = "Calculates the distance between given points",
         params = {"Coordinates of one point", "Coordinates of another point"},
         returnVal = ""
